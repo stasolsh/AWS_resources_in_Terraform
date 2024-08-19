@@ -1,4 +1,4 @@
-Here are an elementary examples of AWS resources created by Terraform
+Here are elementary examples of AWS resources created by Terraform
 ====
 
 ## List of resources:

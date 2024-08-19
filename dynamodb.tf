@@ -1,7 +1,3 @@
-module "dynamodb" {
-  source = "./modules/dynamodb"
-}
-
 # modules/dynamodb/main.tf
 
 resource "aws_dynamodb_table" "basic-dynamodb-table" {

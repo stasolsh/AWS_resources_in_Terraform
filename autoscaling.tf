@@ -1,7 +1,3 @@
-module "autoscaling" {
-  source = "./modules/autoscaling"
-}
-
 # modules/autoscaling/main.tf
 
 resource "aws_launch_configuration" "example" {

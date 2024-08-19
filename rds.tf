@@ -1,7 +1,3 @@
-module "rds" {
-  source = "./modules/rds"
-}
-
 # modules/rds/main.tf
 
 resource "aws_db_instance" "default" {

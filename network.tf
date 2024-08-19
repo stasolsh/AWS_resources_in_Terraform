@@ -1,7 +1,3 @@
-module "network" {
-  source = "./modules/network"
-}
-
 # modules/network/main.tf
 
 resource "aws_vpc" "main" {

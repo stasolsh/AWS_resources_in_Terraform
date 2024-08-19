@@ -1,7 +1,3 @@
-module "lambda" {
-  source = "./modules/lambda"
-}
-
 # modules/lambda/main.tf
 
 resource "aws_lambda_function" "function" {

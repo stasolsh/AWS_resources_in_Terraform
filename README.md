@@ -1,4 +1,4 @@
-Here is an elementary example of AWS resources created by Terraform
+Here are an elementary examples of AWS resources created by Terraform
 ====
 
 ## List of resources:
@@ -15,4 +15,5 @@ Here is an elementary example of AWS resources created by Terraform
 10. [cloudfront](cloudfront.tf)
 11. [autoscaling](autoscaling.tf)
 12. [loadbalancer](loadbalancer.tf)
+13. [cloudwatch](cloudwatch.tf)
 

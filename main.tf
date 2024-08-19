@@ -53,3 +53,7 @@ module "loadbalancer" {
 module "vpc" {
   source = "./vpc.tf"
 }
+
+module "cloudwatch" {
+  source = "./cloudwatch.tf"
+}

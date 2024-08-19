@@ -1,7 +1,3 @@
-module "sns" {
-  source = "./modules/sns"
-}
-
 # modules/sns/main.tf
 
 resource "aws_sns_topic" "topic" {

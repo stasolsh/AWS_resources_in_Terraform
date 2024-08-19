@@ -1,7 +1,3 @@
-module "loadbalancer" {
-  source = "./modules/loadbalancer"
-}
-
 # modules/loadbalancer/main.tf
 
 resource "aws_lb" "lb" {

@@ -1,7 +1,3 @@
-module "iam" {
-  source = "./modules/iam"
-}
-
 # modules/iam/main.tf
 
 resource "aws_iam_role" "role" {

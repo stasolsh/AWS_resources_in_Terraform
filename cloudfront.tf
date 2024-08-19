@@ -1,7 +1,3 @@
-module "cloudfront" {
-  source = "./modules/cloudfront"
-}
-
 # modules/cloudfront/main.tf
 
 resource "aws_cloudfront_distribution" "s3_distribution" {

@@ -1,7 +1,3 @@
-module "ec2" {
-  source = "./modules/ec2"
-}
-
 # modules/ec2/main.tf
 
 resource "aws_instance" "example" {

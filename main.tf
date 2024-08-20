@@ -57,3 +57,11 @@ module "vpc" {
 module "cloudwatch" {
   source = "./cloudwatch.tf"
 }
+
+module "ecrrepository" {
+  source = "./ecrrepository.tf"
+}
+
+module "route53" {
+  source = "./route53.tf"
+}

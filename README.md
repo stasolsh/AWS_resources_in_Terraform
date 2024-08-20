@@ -16,4 +16,6 @@ Here are elementary examples of AWS resources created by Terraform
 11. [autoscaling](autoscaling.tf)
 12. [loadbalancer](loadbalancer.tf)
 13. [cloudwatch](cloudwatch.tf)
+14. [ecrrepository](ecrrepository.tf)
+15. [route53](route53.tf)
 
